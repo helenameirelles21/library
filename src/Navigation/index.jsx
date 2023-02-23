@@ -20,8 +20,8 @@ export const RootNavigation = () => {
 export const MBTNav = () => {
   return (
     <MBTabs.Navigator>
-      <MBTabs.Screen name="lidos" component={HomeScreen} />
-      <MBTabs.Screen name="livros" component={SobreScreen} />
+      <MBTabs.Screen name="lidos"  component={HomeScreen} />
+      <MBTabs.Screen name="livros"  component={SobreScreen} />
     </MBTabs.Navigator>
   );
 };
